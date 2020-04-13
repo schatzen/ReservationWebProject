@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="map">
+
+	<select id="map_one_branch" parameterType="String"
+		resultType="mapp">
+		select map_lang,map_long,map_branch from map where
+		map_branch = #{info_branch}
+	</select>
+
+
+
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+

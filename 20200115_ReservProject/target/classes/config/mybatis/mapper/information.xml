@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="information">
+
+	<select id="info_list" resultType="information">
+		select * from information
+	</select>
+
+	<select id="info_one_branch" parameterType="String"
+		resultType="information">
+		select * from information where info_branch =
+		#{info_branch}
+	</select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
