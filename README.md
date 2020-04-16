@@ -4,5 +4,10 @@
 Language : Java, Javascript<br>
 Framework: Spring, Bootstrap 3.3.7<br>
 DBMS : Oracle<br>
-DB Module : Mybatis<br>
+DB Module : Mybatis
+<br><br>
+
+메인 페이지<br>
+----------
+![main_page](./img/solo_1.png)
 
